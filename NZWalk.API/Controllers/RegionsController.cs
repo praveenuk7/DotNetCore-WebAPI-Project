@@ -101,7 +101,7 @@ namespace NZWalk.API.Controllers
             return CreatedAtAction(nameof(GetById), new {id=regionDomainModel.Id }, regionDto);
         }
 
-        //PUT OR UPDATE
+        //UPDATEorPUT
 
         [HttpPut]
         [Route("{id:Guid}")]
